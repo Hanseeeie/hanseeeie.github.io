@@ -1,0 +1,22 @@
+img{
+  height: auto;
+  max-width: 100%;
+}
+
+figure{
+  &:not(:first-child){
+    margin-top: $spacing-s;
+  }
+  &:not(:last-child){
+    margin-bottom: $spacing-s;
+  }
+}
+
+figcaption{
+  font-style: italic;
+  padding: $spacing-xs 0;
+}
+
+.figure--center{
+  text-align: center;
+}
