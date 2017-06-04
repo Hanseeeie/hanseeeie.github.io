@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="site-wrapper">
+      {% include site-header.html %}
+      <div class="site-content">
+        <div class="site-content__container">
+          {% for post-item in site.posts %}
+            {% include post-item.html %}
+          {% endfor %}
+        </div>
+      </div>
+      {% include site-footer.html %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+h1,h2,h3,h4,h5,h6{
+  color: $color-font-darkest;
+  font-family: $font-stack-headings;
+}
+
+h1{
+  font-size: 2.8em;
+}
+
+h2{
+  font-size: 2.2em;
+}
+
+h3{
+  font-size: 1.8em;
+}
+
+h4{
+  font-size: 1.4em;
+}
+
+h5{
+  font-size: 1.2em;
+}
+
+h6{
+  font-size: 1em;
+}
+
+p + p{
+  margin-top: $spacing-s;
+}
+
+hr{
+  background-color: $color-border-dark;
+  border: 0;
+  display: inline-block;
+  height: 1px;
+  margin: $spacing-m 0;
+  width: 100%;
+}

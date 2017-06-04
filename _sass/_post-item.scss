@@ -1,0 +1,26 @@
+.post-item{
+  background: $color-theme-lightest;
+  box-shadow: $box-shadow-m;
+  display: flex;
+  padding: $spacing-m;
+  text-decoration: none;
+}
+
+.post-item + .post-item{
+  margin-top: $spacing-m;
+}
+
+.post-item__image{
+  flex: none;
+  margin-right: $spacing-m;
+  height: 200px;
+  width: 200px;
+
+  img{
+    width: 100%;
+  }
+}
+
+.post-item__title{
+  font-size: 1.4em;
+}

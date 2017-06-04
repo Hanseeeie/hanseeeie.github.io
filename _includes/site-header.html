@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="site-header__container">
+    <a href="/" class="site-header__brand">
+      <img class="site-header__img" src={{ "/img/me.jpg" | base_url }} alt="Hannah"/>
+      <span class="site-header__title">{{site.title}}</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="/">Home</a>
+      {% for page in site.pages %}
+        {% if page.title %}
+          <a href="{{page.url}}">{{page.title}}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>

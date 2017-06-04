@@ -1,0 +1,40 @@
+.site-header{
+  background-color: $color-cornflower;
+  border-bottom: 1px solid $color-border-dark;
+  display: flex;
+  flex: none;
+  justify-content: center;
+  padding: $spacing-s $spacing-m;
+  width: 100vw;
+}
+
+.site-header__container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 980px;
+}
+
+.site-header__brand{
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.site-header__img{
+  border-radius: 50%;
+  flex: none;
+  height: 48px;
+  margin-right: $spacing-s;
+  width: 48px;
+}
+
+.site-header__title{
+  font-size: 1.4em;
+}
+
+.site-header__nav a{
+  font-size: 1.1em;
+  padding: $spacing-s;
+}
