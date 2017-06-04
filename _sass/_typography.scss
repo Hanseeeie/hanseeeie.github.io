@@ -2,7 +2,7 @@ h1,h2,h3,h4,h5,h6{
   color: $color-font-darkest;
   font-family: $font-stack-headings;
 
-  + h1, + h2, + h3, + h4, + h5, + h6{
+  + h1, + h2, + h3, + h4, + h5, + h6, + img{
     margin-top: $spacing-s;
   }
 
